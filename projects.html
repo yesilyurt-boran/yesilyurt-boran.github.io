@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">yesilyurt-boran.github.io</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+	
+    <div class="container">
+        <h1>Projects</h1>
+        <p class="intro">A collection of research tools, computational models, and side projects. Hover over any card to see a summary and link to the source code.</p>
+        
+        <div class="gallery">
+            <!-- Project 1 -->
+            <div class="flip-card-wrapper">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <div class="card-header">
+                            <div class="card-category">Research Tool</div>
+                            <h3 class="card-title">	cqGrav</h3>
+                            <div class="card-tech">Mathematica</div>
+                        </div>
+                        <div class="card-description">
+							A Mathematica-based pipeline to compute 1-loop corrections to graviton self-energy and related cosmological observables on de Sitter space.																																									
+                        </div>
+                        <div class="card-hint">Hover to see more →</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="summary">
+                            <div class="summary-title">Quick Summary</div>
+                            <div class="summary-text">
+							
+							</div>
+                        </div>
+                        <a href="https://github.com/yesilyurt-boran/cqGrav" class="github-btn">
+                            <span>Coming soon!</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="flip-card-wrapper">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <div class="card-header">
+                            <div class="card-category">Project: Biophysics</div>
+                            <h3 class="card-title">Stochastic Colony Growth</h3>
+                            <div class="card-tech">Python, NumPy, SciPy, Matplotlib</div>
+                        </div>
+                        <div class="card-description">
+							A stochastic simulation of bacterial colony growth using a branching random walk framework. The model represents colonies as interacting growth tips governed by probabilistic branching, death, and biased propagation in nutrient-dependent environments, producing emergent spatial morphology.
+                        </div>
+                        <div class="card-hint">Hover to see more →</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="summary">
+                            <div class="summary-title">Quick Summary</div>
+                            <div class="summary-text">
+								A Monte Carlo branching random walk model for bacterial colony growth that reproduces emergent morphologies and self-limiting expansion through stochastic tip dynamics and environment-dependent growth rules.
+                            </div>
+                        </div>
+                        <a href="https://github.com/yesilyurt-boran/stochastic-colony-growth" class="github-btn">
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="flip-card-wrapper">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <div class="card-header">
+                            <div class="card-category">Project: App</div>
+                            <h3 class="card-title">elden-companion</h3>
+                            <div class="card-tech">Python, JS, HTML, webview</div>
+                        </div>
+                        <div class="card-description">
+						A Python-based desktop overlay for Elden Ring that combines progress tracking, build management, notes, and an AI companion. It stays on top of the game window and can be controlled via a hotkey, helping players track completion and get contextual guidance without leaving the game.
+                        </div>
+                        <div class="card-hint">Hover to see more →</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="summary">
+                            <div class="summary-title">Quick Summary</div>
+                            <div class="summary-text">
+								Elden Companion is an always-on-top desktop overlay for Elden Ring that tracks region progress, manages builds, and stores notes while providing an AI companion that adapts its guidance to the player’s level, build, and selected tone.
+                            </div>
+                        </div>
+                        <a href="https://github.com/yesilyurt-boran/elden-companion" class="github-btn">
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <!-- Debate Arena -->
+			<div class="flip-card-wrapper">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card-header">
+							<div class="card-category">Project: Agentic App</div>
+							<h3 class="card-title">paper-debate-arena</h3>
+							<div class="card-tech">Python, React, FastAPI, LlamaIndex, FAISS, NetworkX, OpenAI</div>
+						</div>
+						<div class="card-description">
+							A particle collider for research papers. Upload two papers, get an interactive argument map of their conflicts. Then challenge claims, demand steelman arguments, and force each side to answer the other's strongest objection.								</div>
+						<div class="card-hint">Hover to see more →</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="summary">
+							<div class="summary-title">Quick Summary</div>
+							<div class="summary-text">
+								Agentic conflict detection and cross-examination system built on per-paper RAG indexes and GPT-4o classification. Maps disagreements as a persistent graph exportable as JSON. Tested across cosmology, biophysics and condensed matter physics papers with no domain-specific tuning.							</div>
+						</div>
+						<a href="https://github.com/yesilyurt-boran/paper-debate-arena" class="github-btn">
+							<span>View on GitHub</span>
+						</a>
+					</div>
+				</div>
+			</div>
+            <!-- Project 5 -->
+            <div class="flip-card-wrapper">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <div class="card-header">
+                            <div class="card-category">Analysis: Quantitative Finance</div>
+                            <h3 class="card-title">Coming soon!</h3>
+                            <div class="card-tech"> </div>
+                        </div>
+                        <div class="card-description">
+						
+                        </div>
+                        <div class="card-hint">Hover to see more →</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="summary">
+                            <div class="summary-title">Quick Summary</div>
+                            <div class="summary-text">
+							
+                            </div>
+                        </div>
+                        <a href="https://github.com/yesilyurt-boran" class="github-btn">
+                            <span>View Analysis</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 6 -->
+            <div class="flip-card-wrapper">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <div class="card-header">
+                            <div class="card-category">Project: Data Science</div>
+                            <h3 class="card-title">Coming soon!</h3>
+                            <div class="card-tech"> </div>
+                        </div>
+                        <div class="card-description">
+						
+                        </div>
+                        <div class="card-hint">Hover to see more →</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="summary">
+                            <div class="summary-title">Quick Summary</div>
+                            <div class="summary-text">
+							
+                            </div>
+                        </div>
+                        <a href="https://github.com/yesilyurt-boran/" class="github-btn">
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<footer>
+        <div class="footer-container">
+            <ul class="footer-links">
+                <li><a href="mailto:b.yesilyurt@ufl.edu">Email</a></li>
+                <li><a href="https://github.com/yesilyurt-boran">GitHub</a></li>
+                <li><a href="https://scholar.google.com/citations?user=VNmF69QAAAAJ&hl=en">Google Scholar</a></li>
+            </ul>
+            <div class="footer-note">© 2026 Boran Yesilyurt</div>
+        </div>
+    </footer>
+</body>
+</html>
